@@ -33,6 +33,7 @@ The wallets were analyzed using historical borrow, repay, supply, and redeem eve
 ---
 
 ## Project Structure
+``` 
 wallet-risk-score/
 │
 ├── data/                     # Raw and processed data files
@@ -50,7 +51,7 @@ wallet-risk-score/
 │   └── find_slug.py
 │
 └── report.md                 # Technical writeup for explanation
-
+```
 ## Model Details
 - Algorithm: Random Forest Regressor
 - Evaluation: R² score ≈ 0.34 (on synthetic risk scores)
